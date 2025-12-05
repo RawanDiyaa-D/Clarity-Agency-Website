@@ -1,0 +1,49 @@
+@media screen and (min-width: 640px) {
+  .dropdown-menu {
+    width: 476px;
+  }
+}
+
+/*  meduim screen devices  */
+
+@media screen and (min-width: 768px) {
+  .dropdown-menu {
+    width: 588px;
+  }
+}
+/*  large screen devices  */
+
+@media screen and (min-width: 1024px) {
+  .dropdown-menu {
+    width: 798px;
+  }
+}
+/*  extra large screen devices  */
+
+@media screen and (min-width: 1280px) {
+  .dropdown-menu {
+    width: 1150px;
+  }
+}
+/*  extra  extra large screen devices  */
+
+@media screen and (min-width: 1536px) {
+  .xxl-100 {
+    width: 100%;
+  }
+  .xxl-50 {
+    width: 50%;
+  }
+  .xxl-33 {
+    width: 33.333%;
+  }
+  .xxl-25 {
+    width: 25%;
+  }
+  .xxl-20 {
+    width: 20%;
+  }
+  .xxl-16 {
+    width: 16.666%;
+  }
+}
