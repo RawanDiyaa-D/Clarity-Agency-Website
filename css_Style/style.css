@@ -926,7 +926,8 @@ body {
 #pills-backend .row .col-md-6:nth-of-type(2) .nav-bills__cards span,
 #pills-mobile .row .col-md-6:nth-of-type(1) .nav-bills__cards span,
 #pills-Cloud .row .col-md-6:nth-of-type(2) .nav-bills__cards span,
-#pills-Cloud .row .col-md-6:nth-of-type(4) .nav-bills__cards span {
+#pills-Database .row .col-md-6:nth-of-type(1) .nav-bills__cards span ,
+#pills-Cloud .row .col-md-6:nth-of-type(4) .nav-bills__cards span{
   color: var(--color-blue-800);
   background-color: var(--color-blue-100);
 }
@@ -940,7 +941,8 @@ body {
 
 #pills-frontend .row .col-md-6:nth-of-type(3) .nav-bills__cards span,
 #pills-backend .row .col-md-6:nth-of-type(1) .nav-bills__cards span,
-#pills-mobile .row .col-md-6:nth-of-type(4) .nav-bills__cards span {
+#pills-mobile .row .col-md-6:nth-of-type(4) .nav-bills__cards span ,
+#pills-Database .row .col-md-6:nth-of-type(2) .nav-bills__cards span{
   color: var(--color-green-800);
   background-color: var(--color-green-100);
 }
@@ -961,18 +963,21 @@ body {
 #pills-frontend .row .col-md-6:nth-of-type(6) .nav-bills__cards span,
 #pills-backend .row .col-md-6:nth-of-type(4) .nav-bills__cards span,
 #pills-mobile .row .col-md-6:nth-of-type(5) .nav-bills__cards span,
-#pills-Cloud .row .col-md-6:nth-of-type(5) .nav-bills__cards span {
+#pills-Cloud .row .col-md-6:nth-of-type(5) .nav-bills__cards span ,
+#pills-Database .row .col-md-6:nth-of-type(5) .nav-bills__cards span {
   color: var(--color-purple-800);
   background-color: var(--color-purple-100);
 }
 
 #pills-backend .row .col-md-6:nth-of-type(3) .nav-bills__cards span,
-#pills-Cloud .row .col-md-6:nth-of-type(3) .nav-bills__cards span {
+#pills-Cloud .row .col-md-6:nth-of-type(3) .nav-bills__cards span ,
+#pills-Database .row .col-md-6:nth-of-type(3) .nav-bills__cards span{
   color: var(--color-red-800);
   background-color: var(--color-red-100);
 }
 
-#pills-backend .row .col-md-6:nth-of-type(5) .nav-bills__cards span {
+#pills-backend .row .col-md-6:nth-of-type(5) .nav-bills__cards span ,
+#pills-Database .row .col-md-6:nth-of-type(6) .nav-bills__cards span{
   color: var(--color-indigo-800);
   background-color: var(--color-indigo-100);
 }
@@ -980,6 +985,11 @@ body {
 #pills-backend .row .col-md-6:nth-of-type(6) .nav-bills__cards span {
   color: var(--color-teal-800);
   background-color: var(--color-teal-100);
+}
+
+#pills-Database .row .col-md-6:nth-of-type(4) .nav-bills__cards span {
+  color: var(--color-yellow-800);
+  background-color: var(--color-yellow-100);
 }
 
 /* span  */
@@ -1002,7 +1012,7 @@ body {
 }
 
 .accordion-button::after {
-  background-image: url(images/Screenshot_2025-11-22_190258-removebg-preview.png);
+  background-image: url(../images/Screenshot_2025-11-22_190258-removebg-preview.png);
   width: 45px;
   height: 45px;
   background-size: contain;
@@ -1010,7 +1020,7 @@ body {
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url(images/Screenshot_2025-11-22_190258-removebg-preview.png);
+  background-image: url(../images/Screenshot_2025-11-22_190258-removebg-preview.png);
 }
 
 .accordion-button:not(.collapsed) {
@@ -1328,11 +1338,6 @@ resize: none;
   width: 15px;
   height: 12px;
   border-radius: 0;
-
-}
-
-#formSection input[type="checkbox"]:checked {
-  outline: 2px solid var(--color-orange-500);
 
 }
 
